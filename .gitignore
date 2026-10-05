@@ -1,0 +1,21 @@
+__pycache__/
+.pytest_cache/
+work/
+demo/
+demo_class/
+~$*
+bot.env
+bot_data/
+compiled/*/thumbs/
+bot_data_run.log
+compiled/*/showcase/
+samples/
+
+# ключ Google сервисного аккаунта CRM Lumi
+crm_key.json
+*service_account*.json
+
+# сетки под размер класса (vignette/gridvariants.py): делаются заново по запросу
+compiled/*/[0-9]*x[0-9]*/
+layouts/*/[0-9]*x[0-9]*.json
+layouts/*/[0-9]*x[0-9]*_preview.jpg
