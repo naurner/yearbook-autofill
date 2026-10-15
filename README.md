@@ -7,7 +7,7 @@
 ![aiogram](https://img.shields.io/badge/aiogram-3-26A5E4?logo=telegram&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-142%20passing-success)
 
-> Used in production by a studio that makes school graduation albums and "vignettes" (personal yearbooks).
+> Used by the team I work in, which makes school graduation albums and "vignettes" (personal yearbooks).
 
 ---
 
@@ -66,7 +66,7 @@ flowchart LR
 ## Quick start
 
 ```bash
-pip install openpyxl pillow fonttools aiogram pytest
+pip install -r requirements.txt
 pytest
 python fill_album.py --template <Template> --excel class.xlsx --photos ./photos --out ./out --check
 python vignette.py preview --template <Template> --excel class.xlsx --photos ./photos --out ./out

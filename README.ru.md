@@ -1,8 +1,8 @@
 # Автозаполнение выпускных альбомов (Photoshop)
 
 ## Что нужно
-- Photoshop 2026, Python 3 с пакетами `openpyxl pillow fonttools`
-  (`python -m pip install openpyxl pillow fonttools`).
+- Photoshop 2026, Python 3 и зависимости из `requirements.txt`
+  (`python -m pip install -r requirements.txt`).
 - Установленные шрифты шаблона (папки `fonts`/`font` рядом с шаблоном).
 
 ## Как заполнить альбом
